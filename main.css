@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+#img {
+    width: 200px;
+    height: 200px;
+}
+
+#button {
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, black) ;
+    background-color: #ffffff;
+}
+
+.in-flex input {
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
